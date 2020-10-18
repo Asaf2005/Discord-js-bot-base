@@ -2,7 +2,6 @@ const {client} = require('../index');
 require('dotenv-flow').config();
 
 const config = {
-    token: process.env.token,
     prefix: process.env.prefix
 }
 
