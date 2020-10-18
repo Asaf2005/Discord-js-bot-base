@@ -1,3 +1,7 @@
+```
+made by Asaf Sivan
+Github - @AsafSivan1 
+```
 const fs = require('fs');
 const Discord = require('discord.js');
 const client = new Discord.Client();
