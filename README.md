@@ -13,3 +13,4 @@ Add .env file and inside add:
 TOKEN=YourToken
 PREFIX=YourPrefix
 ```
+
