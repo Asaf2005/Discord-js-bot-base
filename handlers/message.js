@@ -1,7 +1,13 @@
 const {client} = require('../index');
+require('dotenv-flow').config();
+
+const config = {
+    token: process.env.token,
+    prefix: process.env.prefix
+}
 
 client.on('message',async  message => {
-    var prefix = "v!"
+    var prefix = config.prefix
     client.prefix = prefix
     let prefix2 = `<@!${client.user.id}>`
     let msg = message.content.toLowerCase() || message.content.toUpperCase();
