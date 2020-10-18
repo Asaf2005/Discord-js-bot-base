@@ -1,5 +1,15 @@
 # Discord-js-bot-base
-1. Please download the packages in requirements.txt
-2. Add .env file and inside add: 
-TOKEN=[YourToken]
-PREFIX=[YourPrefix]
+An advanced code for discord-js bot.
+
+# Requirements
+```bash
+npm i discord.js
+npm install dotenv-flow --save
+```
+
+# Config
+Add .env file and inside add:
+```
+TOKEN=YourToken
+PREFIX=YourPrefix
+```
